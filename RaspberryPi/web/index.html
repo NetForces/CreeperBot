@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>CreeperBot</title>
+		
+		<link rel="stylesheet" href="css/jquery.switchButton.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+
+	<body>
+		<!-- <script src="js/scripts.js"></script> -->
+		<table id="main_table" style="width:100%">
+			<tr>
+				<td></td>
+				<td>
+					<input id="front" type="image" src="images/up.png" alt="Submit" width="48" height="48">
+				</td> 
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					<input id="left" type="image" src="images/left.png" alt="Submit" width="48" height="48">
+				</td>
+				<td>
+					<input id="stop" type="image" src="images/stop.jpg" alt="Submit" width="48" height="48">
+				</td> 
+				<td>
+					<input id="right" type="image" src="images/right.png" alt="Submit" width="48" height="48">
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<input id="back" type="image" src="images/down.png" alt="Submit" width="48" height="48">
+				</td> 
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td> 
+				<td></td>
+			</tr>
+			<tr>
+				<td>
+					Eyes:
+					<div id="eye_switch" class="switch-wrapper">
+						<input type="checkbox" value="1" id="eye">
+					</div>
+				</td>
+				<td></td> 
+				<td>
+					Light:
+					<div id="light_switch" class="switch-wrapper">
+						<input type="checkbox" value="1" id="light">
+					</div>
+					Strobe:
+					<div id="strobe_switch" class="switch-wrapper">
+						<input type="checkbox" value="1" id="strobe">
+					</div>
+				</td>
+			</tr>
+		</table>
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
+	    <script src="js/jquery.switchButton.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
