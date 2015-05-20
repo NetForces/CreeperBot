@@ -6,7 +6,7 @@ I modified the main body slightly to accomodate larger free rotation servos I ha
 
 I also added a Creeper face with LED eyes and mount for an iPhone 4
 
-This was build as an example in a talk I did for Montreal.rb
+This was build as an example in a talk I did for Montreal.rb (http://net-forces.blogspot.ca/2015/05/iotioe-hardware-electronicsand-some.html)
 
 # FaceTime AutoAnswer
 
